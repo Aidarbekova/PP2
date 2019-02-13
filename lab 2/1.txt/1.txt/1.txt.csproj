@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44539DA6-C8E8-4C82-8B3D-7A85AE4A4EC1}</ProjectGuid>
+    <ProjectGuid>{6AB69B33-EA66-46BF-BA3F-22F9137A3057}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>prime2</RootNamespace>
-    <AssemblyName>prime2</AssemblyName>
+    <RootNamespace>_1.txt</RootNamespace>
+    <AssemblyName>1.txt</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
