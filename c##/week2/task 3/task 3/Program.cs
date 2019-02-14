@@ -18,10 +18,10 @@ namespace task_3
         }
         public static void showDirectory(DirectoryInfo d, int level)
         {
-            DirectoryInfo[] arrayOfDirectories = d.GetDirectories();
+            DirectoryInfo[] arrayOfDirectories = d.GetDirectories(); //we use this oper for  repeting use as copying and moving 
 
             FileInfo[] arrayOfFiles = d.GetFiles();
-            foreach (FileInfo f in arrayOfFiles)
+            foreach (FileInfo f in arrayOfFiles) //copy each file into new direction
             {
                 printSpace(level);
                 Console.WriteLine(d.Name);

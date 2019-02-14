@@ -11,36 +11,38 @@ namespace task_1
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c##\week2\1.txt.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c##\week2\1.txt.txt"); //read inform from file
 
-            string s = sr.ReadLine();
+            string s = sr.ReadLine(); //read all string
 
-            bool isTrue;
+            bool isTrue; // create type of premise which is initially equal to true
 
-            while(s != null)
+            while (s != null)
             {
-                isTrue = true;
+                isTrue = true; //Fuction is working 
 
-                for ( int i = 0; i <=s.Length / 2; i++)
+                for (int i = 0; i <= s.Length / 2; i++) //read this loop
                 {
-                    if( s[i] != s[s.Length - i - 1])
+                    if (s[i] != s[s.Length - i - 1]) // if a letter from different sides aren't equal to each others
                     {
-                        isTrue = false;
-                        break;
+                        isTrue = false; // it will be not polindrom
+                        break; // stop operation in this part
                     }
                 }
-                if (isTrue)
+                if (isTrue) // if it is polindrom
 
                 {
-                    Console.WriteLine("Yes");
+                    Console.WriteLine("Yes"); //write Yes
                 }
                 else
                 {
-                    Console.WriteLine("No");
+                    Console.WriteLine("No"); //if no write No
                 }
-                sr.Close();
+                s = sr.ReadLine(); //read all string
             }
-            Console.ReadKey();
+                sr.Close();
+            Console.WriteLine(s); //deduce word
+            Console.ReadKey(); //for not okladka
         }
     }
 }

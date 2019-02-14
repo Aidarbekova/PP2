@@ -8,19 +8,19 @@ namespace task_2
 {
     class Student
     {
-        private int id = 0;
-        public string name = "";
-        public int yearOfStudy = 0;
+        private int id = 0; //create int id 
+        public string name = ""; //create string name
+        public int yearOfStudy = 0; //create int YearOfStudy type int
 
-        public Student() { }
+        //public Student() { }
 
-        public Student(string n, int id)
+        public Student(string n, int id) //create constructer student
 
         {
-            name = n;
-            this.id = id;
+            name = n; //annex to name=n
+            this.id = id;//annex this id = id
         }
-        public int getId() // get id from private for work with it 
+        public int getId() // get id from private for work with it write functiom getId
         {
             return this.id;
         }
@@ -34,15 +34,15 @@ namespace task_2
 
         static void Main(string[] args)
         {
-            Student s = new Student("a", 1);
+            Student s = new Student("a", 1); //create variable consists from name and YOS 
 
             Console.WriteLine(s.getId());
 
-            s.getId();
+            s.getId(); //induce function
 
-            s.incrementYearOfStudy();
+            s.incrementYearOfStudy();//induce function
 
-            Console.WriteLine(s.yearOfStudy);
+            Console.WriteLine(s.yearOfStudy); //deduce YOS on a screen
 
             Console.ReadKey();
         }

@@ -9,7 +9,7 @@ namespace FarManager
 {
     class Program
     {
-        static void show(DirectoryInfo a, int pos)
+        static void show(DirectoryInfo a, int pos)// move info from this files
         {
             Console.BackgroundColor = ConsoleColor.Black;
 
@@ -31,7 +31,7 @@ namespace FarManager
                 {
                     Console.BackgroundColor = ConsoleColor.Black;
                 }
-                if (current.GetType() == typeof(DirectoryInfo))
+                if (current.GetType() == typeof(DirectoryInfo)) // we get types from current instance
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
 

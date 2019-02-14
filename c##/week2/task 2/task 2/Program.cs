@@ -11,9 +11,9 @@ namespace task_2
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c##\week2\input.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c##\week2\input.txt");//read files
 
-            string s = sr.ReadLine();
+            string s = sr.ReadLine(); //read all the string
 
             bool isTrue;
 
