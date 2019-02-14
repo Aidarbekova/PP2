@@ -12,7 +12,7 @@ namespace lab_2
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"D:\2..txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c#\lab 2\1.txt\1.txt");
             string s = sr.ReadLine();
             bool isTrue;
             while(s != null)

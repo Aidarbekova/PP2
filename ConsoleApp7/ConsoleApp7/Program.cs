@@ -17,12 +17,12 @@ namespace ConsoleApp7
         public Student(string n, int id)
 
         {
-            name = n;
+            name = n; //мы присвоили 
             this.id = id;
         }
-        public int getId()
+        public int getId() //мы вызвали функцию гет айди для работы с ним
         {
-            return this.id;
+            return this.id; //функция возвращения этого айди
         }
         public void incrementYearOfStudy()
         {
@@ -35,10 +35,13 @@ namespace ConsoleApp7
         static void Main(string[] args)
         {
             Student s = new Student("a", 1);
-            Console.WriteLine(s.getId());
-            s.getId();
-            s.incrementYearOfStudy();
-            Console.WriteLine(s.yearOfStudy);
+
+            Console.WriteLine(s.getId()); //выписывает текстовые представления
+
+            s.getId(); //вытащить айди
+
+            s.incrementYearOfStudy(); //функция позволяет нам менять свой год обучения
+            Console.WriteLine(s.yearOfStudy); //выпис текст предсавление 
 
             Console.ReadKey();
         }

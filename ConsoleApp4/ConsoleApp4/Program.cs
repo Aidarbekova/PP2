@@ -12,24 +12,24 @@ namespace ConsoleApp4
         {
             int n = int.Parse(Console.ReadLine());
 
-            string[,] doubleArray = new string[n, n];
+            string[,] doubleArray = new string[n, n]; //это двумерный массив так делается
 
-            string pattern = "[*]";
+            string pattern = "[*]"; //это шаблон
 
             for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j <= i; j++)
+                for (int j = 0; j <= i; j++) //для того чтобы была нужная форма
                 {
-                    doubleArray[i, j] = pattern;
+                    doubleArray[i, j] = pattern; //этот двойной массив итый джитый
                 }
             }
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(doubleArray[i, j]);
+                    Console.Write(doubleArray[i, j]); //вывести именно на те места которые вы предоставили для паттернов
                 }
-                Console.WriteLine();
+                Console.WriteLine(); //написать
 
             }
             Console.ReadKey();

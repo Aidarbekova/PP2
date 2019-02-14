@@ -10,8 +10,10 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()); 
+
             string s = Console.ReadLine();
+
             string[] firstArray = s.Split(' ');
             string[] secondArray = new string[2 * n];
 

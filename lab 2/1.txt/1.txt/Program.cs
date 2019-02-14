@@ -12,7 +12,7 @@ namespace _1.txt
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\1..txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Asus\Desktop\c#\lab 2\1.txt\1.txt");
             string s = sr.ReadLine();
             bool isTrue;
             while (s != null)
