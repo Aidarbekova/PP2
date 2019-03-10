@@ -1,2 +1,0 @@
-C:\Users\Asus\Desktop\c##\week2\task 2\task 2\obj\Debug\task 2.csprojAssemblyReference.cache
-C:\Users\Asus\Desktop\c##\week2\task 2\task 2\obj\Debug\task 2.csproj.CoreCompileInputs.cache
